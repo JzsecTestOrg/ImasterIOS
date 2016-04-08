@@ -1,0 +1,29 @@
+2016-04-04 23:55:12: module-init 真机启动成功
+2016-04-04 23:55:17: module-welcome 控件experienceButton未找到
+Traceback (most recent call last):
+  File "/Users/xuwen1/PycharmProjects/iMasterIOS/Elements/cappElements/welcomeElements.py", line 12, in experienceButton
+    el = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((By.XPATH, Data.getXpath('welcome', 'welcome', 'experienceButton', 1))))
+  File "/Library/Python/2.7/site-packages/selenium-2.47.1-py2.7.egg/selenium/webdriver/support/wait.py", line 76, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+2016-04-04 23:55:17: module-welcome 未显示欢迎页面
+2016-04-04 23:55:17: module-register 手机号15501253283 未注册
+2016-04-04 23:55:23: module-register 点击进入个人中心
+2016-04-04 23:55:27: module-register 点击进入登录页面
+2016-04-04 23:55:31: module-register 登录页面点击‘快速注册’
+2016-04-04 23:55:33: module-register 快速注册页面正确显示
+2016-04-04 23:55:47: module-register 验证码发送中...
+2016-04-04 23:55:57: module-register 验证码发送成功！
+2016-04-04 23:56:03: module-register 输入验证码: 903593
+2016-04-04 23:56:08: module-register 输入密码：qaz123
+2016-04-04 23:56:08: module-register 不对密码明暗文进行校验
+2016-04-04 23:56:19: module-register 输入昵称: qazwsx123123qaz123!
+2016-04-04 23:56:19: module-register 不对投资大师注册协议勾选进行校验
+2016-04-04 23:56:19: module-register 不对投资大师注册协议内容校验
+2016-04-04 23:56:23: module-register 点击注册按钮
+2016-04-04 23:56:27: module-register 确认提示
+2016-04-04 23:56:35: module-register 注册页面点击返回按钮
+2016-04-04 23:56:39: module-register 登录页面点击返回按钮
+2016-04-04 23:56:43: module-register 个人中心点击返回按钮

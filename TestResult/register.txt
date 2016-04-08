@@ -1,0 +1,38 @@
+2016-04-04 22:35:20: module-init 真机启动成功
+2016-04-04 22:35:25: module-welcome 控件experienceButton未找到
+Traceback (most recent call last):
+  File "/Users/xuwen1/PycharmProjects/iMasterIOS/Elements/cappElements/welcomeElements.py", line 12, in experienceButton
+    el = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((By.XPATH, Data.getXpath('welcome', 'welcome', 'experienceButton', 1))))
+  File "/Library/Python/2.7/site-packages/selenium-2.47.1-py2.7.egg/selenium/webdriver/support/wait.py", line 76, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+2016-04-04 22:35:25: module-welcome 未显示欢迎页面
+2016-04-04 22:35:26: module-register 手机号15210262168 未注册
+2016-04-04 22:35:34: module-register 点击进入个人中心
+2016-04-04 22:35:37: module-register 点击进入登录页面
+2016-04-04 22:35:41: module-register 登录页面点击‘快速注册’
+2016-04-04 22:35:43: module-register 快速注册页面正确显示
+2016-04-04 22:35:57: module-register 验证码发送中...
+2016-04-04 22:36:07: module-register 验证码发送成功！
+2016-04-04 22:36:13: module-register 输入验证码: 158374
+2016-04-04 22:36:19: module-register 输入密码：qaz123
+2016-04-04 22:36:22: module-register 密码显示正确：暗文
+2016-04-04 22:36:25: module-register 切换密码为明文
+2016-04-04 22:36:29: module-register 密码显示正确：明文
+2016-04-04 22:36:32: module-register 切换密码为暗文
+2016-04-04 22:36:36: module-register 密码显示正确：暗文
+2016-04-04 22:36:42: module-register 输入昵称: 1
+2016-04-04 22:36:45: module-register 《投资大师用户注册协议》默认勾选
+2016-04-04 22:36:48: module-register 不勾选《投资大师用户注册协议》
+2016-04-04 22:36:52: module-register 勾选《投资大师用户注册协议》
+2016-04-04 22:36:54: module-register 《投资大师用户注册协议》已勾选
+2016-04-04 22:36:58: module-register 点击《投资大师用户注册协议》
+2016-04-04 22:37:01: module-register 《投资大师用户注册协议》页面显示正确
+2016-04-04 22:37:05: module-register 《投资大师用户注册协议》内容显示正确
+2016-04-04 22:37:09: module-register 返回注册页面
+2016-04-04 22:37:12: module-register 点击注册按钮
+2016-04-04 22:37:17: module-register 注册成功页面正确显示
+2016-04-04 22:37:21: module-register 开通客户号点击返回按钮
+2016-04-04 22:37:28: module-register 点击退出登录
